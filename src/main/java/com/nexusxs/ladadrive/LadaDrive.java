@@ -13,6 +13,6 @@ public class LadaDrive implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("LadaDrive initialized.");
-        LOGGER.info("Lada 2107 prototype is starting.");
+        LOGGER.info("Lada 2107 vehicle system starting...");
     }
 }

@@ -7,7 +7,9 @@
   "authors": [
     "NΞXUS XS"
   ],
+  "contact": {},
   "license": "MIT",
+  "icon": "assets/ladadrive/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
