@@ -3,17 +3,19 @@
   "id": "ladadrive",
   "version": "${version}",
   "name": "LadaDrive",
-  "description": "Lada 2107 vehicle prototype for Minecraft.",
+  "description": "A programmable white Lada 2107 vehicle for Minecraft 1.20.1.",
   "authors": [
     "NΞXUS XS"
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/ladadrive/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.nexusxs.ladadrive.LadaDrive"
+    ],
+    "client": [
+      "com.nexusxs.ladadrive.LadaDriveClient"
     ]
   },
   "depends": {
