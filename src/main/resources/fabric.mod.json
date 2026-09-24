@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ladadrive",
+  "version": "${version}",
+  "name": "LadaDrive",
+  "description": "Lada 2107 vehicle prototype for Minecraft.",
+  "authors": [
+    "NΞXUS XS"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nexusxs.ladadrive.LadaDrive"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.25",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
